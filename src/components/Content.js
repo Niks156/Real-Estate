@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
 import { Grid, Typography } from "@mui/material";
 import Searchbar from "./Searchbar";
 import Filterstats from "./Filterstats";
-import HouseCard from "./HouseCard";
+import Cardlist from "./Cardlist";
 
 export default function Content() {
   const styles = {
@@ -22,7 +22,7 @@ export default function Content() {
           </Grid>
         </Grid>
         <Filterstats />
-        <HouseCard />
+        <Cardlist />
       </Box>
     </>
   );

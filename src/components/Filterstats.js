@@ -11,19 +11,19 @@ export default function Filterstats() {
   return (
     <>
       <Grid container spacing={2} sx={styles}>
-        <Grid item xs={2}>
+        <Grid item xs={2.2}>
           <Typography variant="h4">Location</Typography>
         </Grid>
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-        <Grid item xs={2}>
+        <Grid item xs={2.2}>
           <Typography variant="h4">When</Typography>
         </Grid>
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-        <Grid item xs={2}>
+        <Grid item xs={2.2}>
           <Typography variant="h4">Price</Typography>
         </Grid>
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />
-        <Grid item xs={2}>
+        <Grid item xs={2.2}>
           <Typography variant="h4">Property Type</Typography>
         </Grid>
         <Divider sx={{ height: 28, m: 0.5 }} orientation="vertical" />

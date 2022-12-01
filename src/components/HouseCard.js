@@ -6,22 +6,22 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-export default function HouseCard() {
+export default function HouseCard({...props}) {
+  const {name, img, address} = props;
   return (
     <Card sx={{ maxWidth: 305 }}>
       <CardMedia
         component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
+        height="150"
+        image={require(`../images/${img}`)}
         alt="green iguana"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Lizard
+          {name}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
+          {address}
         </Typography>
       </CardContent>
       <CardActions>
