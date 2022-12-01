@@ -1,9 +1,11 @@
-import './App.css';
+import Appbar from "./components/Appbar";
+import Content from "./components/Content";
 
 function App() {
   return (
     <div className="App">
-          Learn React
+      <Appbar />
+      <Content />
     </div>
   );
 }
